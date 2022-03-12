@@ -67,6 +67,19 @@ div h2 {
     background-color: blue;
 }
 
+.skills h3{
+    padding: .3rem 0;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.skills ul li{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    line-height: 2rem;
+}
+
 
 .portfolio {
     background-color: yellow;
