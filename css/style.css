@@ -10,9 +10,6 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background: var(--main-bg-color);
     letter-spacing: .08rem;
     font-family: sans-serif;
@@ -24,9 +21,14 @@ main{
     align-items: center;
 }
 
+nav {
+    padding: 1rem 0;
+}
+
 nav ul li {
     list-style: none;
     font-size: 2em;
+    text-align: center;
 }
 
 nav ul li a {
@@ -36,7 +38,12 @@ nav ul li a {
 
 div {
     width: 100%;
-    padding: 2rem;
+    padding: 1rem 0;
+}
+
+div h2 {
+    text-align: center;
+    font-size: 1.8rem;
 }
 
 .about {
@@ -46,9 +53,11 @@ div {
 .about h1 {
     text-align: center;
     font-size: 2.5rem;
+    padding-bottom: 1rem;
 }
 
 .about p {
+    max-width: 100%;
     padding: 1em 1em 0;
     font-size: 1.2rem;
     line-height: 1.5em;
@@ -57,6 +66,7 @@ div {
 .skills {
     background-color: blue;
 }
+
 
 .portfolio {
     background-color: yellow;
