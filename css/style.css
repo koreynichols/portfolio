@@ -94,3 +94,20 @@ div h2 {
 .contact {
     background-color: pink;
 }
+
+div .image {
+    width: 80%;
+    height: 140px;
+    background-color: aqua;
+    padding: 0;
+    margin: 0 auto;
+}
+.preview-card {
+    display: inline-block;
+    width: 49%;
+}
+.preview-card h3 {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 1em;
+}
