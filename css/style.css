@@ -73,13 +73,19 @@ div h2 {
     text-decoration: underline;
 }
 
-.skills ul li{
-    display: inline-block;
-    width: 30%;
-    text-align: center;
-    line-height: 2rem;
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
+.skills ul li{
+    min-width: 33%;
+    text-align: center;
+    line-height: 2rem;
+    list-style: none;
+
+}
 
 .portfolio {
     background-color: yellow;
