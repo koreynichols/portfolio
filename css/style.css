@@ -43,6 +43,7 @@ h2 {
     font-size: 1.2rem;
     line-height: 1.5em;
     text-align: center;
+    font-weight: bold;
 }
 
 .skills h3{
@@ -89,7 +90,6 @@ hr {
     display: block;
     margin: 0 auto;
     max-width: 18rem;
-    padding: 2rem 0;
 }
 
 .portfolio-image{
@@ -227,4 +227,15 @@ input[type=checkbox]{
 
 #skills, #portfolio, #previous-employment, #contact {
     scroll-margin-top: 5.1rem;
+  }
+
+  .github-logo {
+    width: 6.8rem;
+  }
+
+  .profile-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
   }
