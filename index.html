@@ -9,26 +9,27 @@
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-            <li class="icon"><a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-              </a></li>
-            
+    <nav class="navbar">
+        <ul class="nav-links">
+            <input type="checkbox" id="checkbox_toggle">
+            <label for="checkbox_toggle" class="hamburger">&#9776</label>
+            <div class="menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#previous-employment">Previous Employment</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </div>
         </ul>
     </nav>
     <main>
-        <div class="about">
+        <div class="about" id="about">
             <h1>Korey Nichols</h1>
             <img class="profile-image" src="images/me.jpg" alt="Picture of me, Korey Nichols">
             <h2>About</h2>
-            <p>Aspiring developer trying to find his way through strange path.</p>
+            <p>Aspiring developer trying to find his way through a strange path.</p>
         </div>
-        <div class="skills">
+        <div class="skills" id="skills">
             <h2>Skills</h2>
             <h3>Frontend</h3>
             <ul>
@@ -47,24 +48,24 @@
                 <li>SQL</li>
             </ul>
         </div>
-        <div class="portfolio">
+        <div class="portfolio" id="portfolio">
             <h2>Portfolio</h2>
             <div class="preview-card">
-                <img class="portfolio-image" src="images/geekbooks.png" alt="">
                 <h3>GeekBooks</h3>
+                <img class="portfolio-image" src="images/geekbooks.png" alt="">
             </div>
             <hr />
             <div class="preview-card">
-                <img src="images/aka-budget.png" alt="" class="portfolio-image">
                 <h3>AKA Budget</h3>
+                <img src="images/aka-budget.png" alt="" class="portfolio-image">
             </div>
             <hr />
             <div class="preview-card">
-                <img src="images/video-poker.png" alt="" class="portfolio-image">
                 <h3>Video Poker</h3>
+                <img src="images/video-poker.png" alt="" class="portfolio-image">
             </div>
         </div>
-        <div class="previous-employment">
+        <div class="previous-employment" id="previous-employment">
             <h2>Previous Employment</h2>
             <div class="previous-employment-card">
                 <h3>Bitwise Cohort (Nov. 2019 - Sept. 2020)</h3>
@@ -84,7 +85,7 @@
                     <li>Allowing those "volunteered" roles to become my main job for over 6 months</li>
                     <li>Lost all confidence in my development skills</li>
                 </ul>
-                <h4>What I Learn From My Failures</h4>
+                <h4>What I Learned From My Failures</h4>
                 <ul>
                     <li>While I have no issue in helping out in other roles, don't let those roles become your main job.</li>
                     <li>Be more assertive and letting superiors know when new roles are becoming an issue</li>
@@ -104,14 +105,14 @@
                     <li>Not much progress made on apps due to lack of communication</li>
                     <li>Never had meetings with supervisor on projects</li>
                 </ul>
-                <h4>What I Learn From My Failures</h4>
+                <h4>What I Learned From My Failures</h4>
                 <ul>
                     <li>How important communication is for work</li>
                     <li>If starting this job over again would make sure to have meeting at least once a week with supervisor and 2 other office employees who would be using apps.</li>
                 </ul>
             </div>
         </div>
-        <div class="contact">
+        <div class="contact" id="contact">
             <h2>Contact</h2>
             <h4>Email - koreynichols1@gmail.com</h4>
         </div>
