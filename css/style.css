@@ -71,8 +71,6 @@ h2 {
     display: inline-block;
 }
 .preview-card h3 {
-    width: fit-content;
-    margin: 0 auto;
     margin-top: .5em;
     font-size: 1.7rem;
     padding-bottom: 1rem;
@@ -239,3 +237,27 @@ input[type=checkbox]{
     align-items: center;
     gap: 1rem;
   }
+
+  .portfolio-item-header, .portfolio-item-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .portfolio-item-footer .github-logo {
+    width: 5rem;
+  }
+
+  .portfolio-item-footer a {
+    color: #111;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1rem;
+  }
+
+  .portfolio-item-footer p {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
