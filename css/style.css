@@ -43,14 +43,7 @@ nav ul li a {
     box-shadow: 3px 3px 3px #333;
     padding: .4em;
     font-size: 2em;
-    text-align: center;function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }
-      }
+    text-align: center;
 }
 
 li.icon {
@@ -90,18 +83,14 @@ div {
     padding: 1rem 0;
 }
 
-div h2 {
+h2 {
     text-align: center;
-    font-size: 1.8rem;
-}
-
-.about {
-    background: green;
+    font-size: 2.3rem;
 }
 
 .about h1 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     padding-bottom: 1rem;
 }
 
@@ -112,12 +101,8 @@ div h2 {
     line-height: 1.5em;
 }
 
-.skills {
-    background-color: blue;
-}
-
 .skills h3{
-    padding: .3rem 0;
+    padding-top: .8rem;
     text-align: center;
     text-decoration: underline;
 }
@@ -126,37 +111,64 @@ div h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: .5rem;
 }
 
 .skills ul li{
     min-width: 33%;
     text-align: center;
-    line-height: 2rem;
+    line-height: 2.5rem;
     list-style: none;
 
 }
 
-.portfolio {
-    background-color: yellow;
-}
-
-.contact {
-    background-color: pink;
-}
-
-div .image {
-    width: 80%;
-    height: 140px;
-    background-color: aqua;
-    padding: 0;
-    margin: 0 auto;
-}
 .preview-card {
     display: inline-block;
-    width: 49%;
 }
 .preview-card h3 {
     width: fit-content;
     margin: 0 auto;
-    margin-top: 1em;
+    margin-top: .5em;
+}
+
+hr {
+    width: 90vw;
+    background-color: black;
+    height: 1px;
+    margin: 0 auto;
+}
+
+.profile-image {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    width: 80vw;
+    padding: 2rem 0;
+}
+
+.portfolio-image{
+    width: 80vw;
+    margin: 0 auto;
+    display: block;
+}
+
+.previous-employment{
+    width: 80vw;
+}
+
+.previous-employment-card{
+    padding: 1rem 0;
+}
+
+.previous-employment h3{
+    padding: .3rem 0;
+}
+
+.previous-employment h4{
+    padding-top: .3rem;
+    padding-bottom: .8rem;
+}
+
+.previous-employment ul {
+    padding-bottom: 1rem;
 }
