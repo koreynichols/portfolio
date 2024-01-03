@@ -324,3 +324,76 @@ section {
     margin: 1rem 0;
     resize: none;
 }
+
+.skills h2 {
+    margin-bottom: 2rem;
+}
+
+.skills {
+    margin: 0 auto;
+}
+
+.skill-bars {
+    margin-top: 8rem;
+    padding: 25px 30px;
+    background-color: var(--second-bg-color);
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.skill-bars .bar {
+    margin: 20px 0;
+}
+
+.skill-bars .bar:first-child {
+    margin-top: 0px;
+}
+
+.skill-bars .bar .info {
+    margin-bottom: 5px;
+}
+
+.skill-bars .bar .info span {
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.skill-bars .bar .progress-line {
+    height: 10px;
+    width: 100%;
+    background: white;
+    position: relative;
+    border-radius: 10px;
+}
+
+.bar .progress-line span {
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    background: white;
+    cursor: pointer;
+}
+
+.bar .progress-line.javascript span {
+    width: 100%;
+    background-color: gold;
+}
+
+.bar .progress-line.react span {
+    width: 80%;
+    background-color: rgb(58, 58, 255);
+}
+
+.bar .progress-line.css span {
+    width: 75%;
+    background-color: lightskyblue;
+}
+
+.bar .progress-line.html span {
+    width: 100%;
+    background-color: orangered;
+}
