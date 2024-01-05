@@ -245,9 +245,10 @@ section {
 .portfolio-box img {
     width: 100%;
     transition: 0.5s ease;
+    filter: brightness(33%);
 }
 
-.portfolio-box:hover img {
+.portfolio-box:hover img{
     transform: scale(1.1);
 }
 
@@ -293,7 +294,7 @@ section {
 
 .portfolio-info a i{
     font-size: 3rem;
-    color: var(--second-bg-color)
+    color: var(--second-bg-color);
 }
 
 .contact h2 {
@@ -342,6 +343,8 @@ section {
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    box-shadow: 0 0 1rem var(--main-color);
+
 }
 
 .skill-bars .bar {
