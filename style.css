@@ -400,3 +400,53 @@ section {
     width: 100%;
     background-color: orangered;
 }
+
+.modal-content {
+    background: rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 25px var(--main-color);
+    border-radius: 1rem;
+}
+
+.modal-dialog {
+    max-width: 800px;
+}
+
+.modal-header {
+    justify-content: center;
+}
+
+.modal-header h2 {
+    font-size: 5rem;
+}
+
+.modal-img img {
+    max-width: 80%;
+}
+
+.modal-body p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.modal-body .github-links {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.modal-body .github-links * {
+    padding: 1rem 1rem 0;
+    color:rgb(35, 255, 0);
+}
+
+.modal-footer {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.modal-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
